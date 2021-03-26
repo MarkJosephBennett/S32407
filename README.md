@@ -21,7 +21,7 @@ to run properly.
 The book Financial Analytics with R explains the acquirePrices() logic in Chapter 4,
 available at http://cambridge.org/FAR
 
-NOTE: the data provider does limit download speeds in order to satify all requests.
+NOTE: the data provider does limit download speeds by ticker.
 
 Use the command:
 $ sh run.sh
