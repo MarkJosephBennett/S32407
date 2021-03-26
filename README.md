@@ -21,6 +21,8 @@ to run properly.
 The book Financial Analytics with R explains the acquirePrices() logic in Chapter 4,
 available at http://cambridge.org/FAR
 
+NOTE: the data provider does limit download speeds in order to satify all requests.
+
 Use the command:
 $ sh run.sh
 to run the process, controlled by the R file createDirOfPrices.R.
