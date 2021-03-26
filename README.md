@@ -1,5 +1,5 @@
 S32407 is a repo with necesssary files for Part1.2021.ipynb and Part2.2021.ipynb Python Jupyter notebooks for the
-course: How to Use GPUs for More Accurate Backtesting Equity Investment Strategies by NVIDIA for GTC Conference in April 2021.
+course: \bold{How to Use GPUs for More Accurate Backtesting Equity Investment Strategies} by NVIDIA for GTC Conference in April 2021.
 
 Best to clone this repository to obtain the R, Python, and .sh files into a working directory.
 The majority of the files here are concerned with creating a FinAnalytics directory below the
