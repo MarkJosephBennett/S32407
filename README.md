@@ -7,9 +7,6 @@ working one if the working one is not already called that and populating it with
 daily prices quotes using get.hist.quote() from R to dynamically download using two tickers files
 known as NYSEclean.txt and NASDAQ.txt.
 
-Use the command run.sh to run the process, controlled by the R file createDirOfPrices.R
-Edit this file at the 3 points marked #EDIT HERE to select other date ranges of interest.
-
 Once there is a FinAnalytics directory with a subdir MVO3.yyyy.mm with NYSE and NASDAQ subdirs
 and prices.csv files in each of these 2 subdirs, created by the Python script coalescePrices.py,
 the Part 1 and Part 2 Python Jupyter notebooks should run correctly.
@@ -23,3 +20,9 @@ to run properly.
 
 The book Financial Analytics with R explains the acquirePrices() logic in Chapter 4,
 available at http://cambridge.org/FAR
+
+Use the command:
+$ sh run.sh
+to run the process, controlled by the R file createDirOfPrices.R.
+Edit this R file at the 3 points marked #EDIT HERE to select other date ranges of interest
+and, once saved, use sh run.sh again.
